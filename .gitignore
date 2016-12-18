@@ -1,0 +1,17 @@
+#
+# Git ignore/exclude file
+#
+
+
+# compiled templates
+/templates_c/*
+!/templates_c/.gitkeep
+
+# external dependencies
+/vendor
+
+# for libraries, never add composer.lock to the repo; this is a library
+/composer.lock
+
+
+# This is the end of file
